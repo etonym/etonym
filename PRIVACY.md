@@ -35,5 +35,3 @@ The Software collects no information from anyone, including children.
 ## 5. Changes and Contact
 
 We may publish a new version of this policy with a later version of the Software. Questions can be sent through the issue tracker at https://github.com/etonym/etonym/issues.
-
-The same text is shown in the app under Settings > About > Privacy policy.
