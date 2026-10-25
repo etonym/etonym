@@ -11,15 +11,25 @@ This repository holds release downloads only. Get the latest installer from
 ## What it does
 
 - **Live preview editing** — headings, lists, tables, links and images render
-  as you type; the line you are editing shows its Markdown source.
+  as you type; the line you are editing shows its Markdown source. A
+  formatting toolbar is always in view.
+- **Tables you can edit in place** — type in cells, and copy or paste cells
+  to and from a spreadsheet.
 - **Your files stay as they are** — opening and saving never rewrites line
-  endings, BOM or spacing, so git shows no changes you did not make. An
-  existing Obsidian vault opens as is; `.obsidian` is never read or written.
+  endings, BOM or spacing, so git shows no changes you did not make. Etonym
+  keeps its own data outside your folder. An existing Obsidian vault opens as
+  is; `.obsidian` is never read or written.
 - **Standard Markdown** — new links and images are relative links that GitHub
-  and GitLab display the same way.
+  and GitLab display the same way. Find broken links from the command palette.
 - **Mermaid diagrams** drawn inside the app, offline.
-- **Git built in** — see what changed, view the diff and commit from the app.
-  It uses the git installed on your computer.
+- **Git in one tab** — review changes, commit and push, fetch and pull,
+  switch and merge branches, and resolve conflicts without a terminal. Each
+  note has its own history. It uses the git installed on your computer.
+- **A terminal and Explorer at hand** — open the OS terminal in your folder
+  (for example to run an AI coding assistant), and open folders or notes from
+  Explorer with **Open with Etonym**.
+- **Copy anywhere** — copying keeps formatting when you paste into a word
+  processor or mail. Print a note with `Ctrl+P`.
 - **Search** across all notes, and quick open by file name.
 - **Works offline** — the network is used only to check for updates.
 
@@ -33,6 +43,11 @@ Windows 10 or 11 (x64).
 3. If Windows SmartScreen warns about an unrecognized app, choose
    **More info** and then **Run anyway**. The installer is not code-signed yet.
    Each release lists the installer's SHA-256 so you can check the download.
+
+Git features need [Git for Windows](https://git-scm.com/download/win) 2.27 or
+later; notes work without it. After installing, right-click a folder or a
+`.md` file in Explorer and choose **Open with Etonym** (on Windows 11, under
+**Show more options**). Your default app for `.md` files is not changed.
 
 Etonym checks for updates when it starts and about once a day, and installs
 one only after you agree. You can turn this off in Settings.
