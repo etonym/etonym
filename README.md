@@ -21,7 +21,8 @@ This repository holds release downloads only. Get the latest installer from
   another Markdown app opens as is, and that app's settings folder is never
   read or written.
 - **Standard Markdown** — new links and images are relative links that GitHub
-  and GitLab display the same way. Find broken links from the command palette.
+  and GitLab display the same way. Links that point to nothing are marked in
+  the note, and **Find broken links** lists them all.
 - **Mermaid diagrams** drawn inside the app, offline.
 - **Git in one tab** — review changes, commit and push, fetch and pull,
   switch and merge branches, and resolve conflicts without a terminal. Each
@@ -32,7 +33,8 @@ This repository holds release downloads only. Get the latest installer from
 - **Copy anywhere** — copying keeps formatting when you paste into a word
   processor or mail. Print a note with `Ctrl+P`.
 - **Search** across all notes, and quick open by file name.
-- **Works offline** — the network is used only to check for updates.
+- **Works offline** — the network is used only to check for updates and to
+  reach the git remotes you set up.
 
 ## Install
 
