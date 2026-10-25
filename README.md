@@ -17,8 +17,9 @@ This repository holds release downloads only. Get the latest installer from
   to and from a spreadsheet.
 - **Your files stay as they are** — opening and saving never rewrites line
   endings, BOM or spacing, so git shows no changes you did not make. Etonym
-  keeps its own data outside your folder. An existing Obsidian vault opens as
-  is; `.obsidian` is never read or written.
+  keeps its own data outside your folder. A folder you already keep with
+  another Markdown app opens as is, and that app's settings folder is never
+  read or written.
 - **Standard Markdown** — new links and images are relative links that GitHub
   and GitLab display the same way. Find broken links from the command palette.
 - **Mermaid diagrams** drawn inside the app, offline.
