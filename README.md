@@ -14,7 +14,7 @@ This repository holds release downloads only. Get the latest installer from
   as you type; the line you are editing shows its Markdown source. A
   formatting toolbar is always in view.
 - **Tables you can edit in place** — type in cells, and copy or paste cells
-  to and from a spreadsheet.
+  to and from a spreadsheet with their bold, italic and strikethrough.
 - **Your files stay as they are** — opening and saving never rewrites line
   endings, BOM or spacing, so git shows no changes you did not make. Etonym
   keeps its own data outside your folder. A folder you already keep with
@@ -32,7 +32,9 @@ This repository holds release downloads only. Get the latest installer from
   Explorer with **Open with Etonym**.
 - **Copy anywhere** — copying keeps formatting when you paste into a word
   processor or mail. Print a note with `Ctrl+P`.
-- **Search** across all notes, and quick open by file name.
+- **Search** across all notes and step through the results with Previous and
+  Next (`F4`); the search words are marked in the open note. Quick open by
+  file name.
 - **Works offline** — the network is used only to check for updates and to
   reach the git remotes you set up.
 
