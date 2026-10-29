@@ -1,0 +1,62 @@
+# .github/workflows/notify-website.yml (source: etonym/website docs/examples/etonym-release-dispatch.yml)
+#
+# When a release is published, ask etonym/website to rebuild so the site shows
+# the new version and SHA-256 hash.
+#
+# Setup in etonym/etonym:
+#   1. Create a fine-grained personal access token
+#        Resource owner: etonym · Repository access: only etonym/website
+#        Repository permissions: Contents = Read and write (required for repository_dispatch)
+#   2. Save it as the Actions secret WEBSITE_DISPATCH_TOKEN.
+#
+# Order matters: the website build reads latest.json and the installer it
+# points to, so both must be attached when the build runs. Releases are made by
+# hand (npm run release, then upload on GitHub): attach the files to the draft
+# before publishing. The first step below still waits up to 5 minutes in case
+# they are uploaded right after publishing.
+
+name: Notify website
+
+on:
+  release:
+    types: [published]
+
+permissions: {}
+
+jobs:
+  dispatch:
+    # Pre-releases do not change /releases/latest, so the site does not need a rebuild.
+    if: ${{ !github.event.release.prerelease }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Wait until latest.json and the installer are attached
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event.release.tag_name }}
+        run: |
+          for i in $(seq 1 30); do
+            names=$(gh release view "$TAG" --repo "$GITHUB_REPOSITORY" --json assets --jq '.assets[].name')
+            if grep -qx 'latest.json' <<<"$names" && grep -qiE '_x64-setup\.exe$' <<<"$names"; then
+              exit 0
+            fi
+            sleep 10
+          done
+          echo "latest.json or the installer is missing on $TAG after 5 minutes" >&2
+          exit 1
+
+      - name: Dispatch release-published to etonym/website
+        env:
+          GH_TOKEN: ${{ secrets.WEBSITE_DISPATCH_TOKEN }}
+          TAG: ${{ github.event.release.tag_name }}
+        run: |
+          gh api repos/etonym/website/dispatches \
+            --method POST \
+            -f event_type=release-published \
+            -f "client_payload[tag]=$TAG"
+
+# Optional: attach SHA256SUMS.txt to each release so users can verify the
+# download from the release page too. The site then cross-checks it against
+# GitHub's asset digest (a mismatch fails the website build).
+#
+#   sha256sum Etonym_*_x64-setup.exe > SHA256SUMS.txt
