@@ -12,7 +12,11 @@ This repository holds release downloads only. Get the latest installer from
 
 - **Live preview editing** — headings, lists, tables, links and images render
   as you type; the line you are editing shows its Markdown source. A
-  formatting toolbar is always in view.
+  formatting toolbar is always in view. Body text uses the bundled Pretendard
+  font, so Korean and Latin text look the same on every computer.
+- **Properties as a table** — the frontmatter at the top of a note shows as
+  a table you can edit, fold, and add to with `Ctrl+;`. Only the lines you
+  change are rewritten.
 - **Tables you can edit in place** — type in cells, and copy or paste cells
   to and from a spreadsheet with their bold, italic and strikethrough.
 - **Your files stay as they are** — opening and saving never rewrites line
