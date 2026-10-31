@@ -19,6 +19,7 @@ This repository holds release downloads only. Get the latest installer from
   change are rewritten.
 - **Tables you can edit in place** — type in cells, and copy or paste cells
   to and from a spreadsheet with their bold, italic and strikethrough.
+  Pasting text and tables copied together keeps both, in order.
 - **Your files stay as they are** — opening and saving never rewrites line
   endings, BOM or spacing, so git shows no changes you did not make. Etonym
   keeps its own data outside your folder. A folder you already keep with
