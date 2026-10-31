@@ -35,8 +35,10 @@ This repository holds release downloads only. Get the latest installer from
 - **A terminal and Explorer at hand** — open the OS terminal in your folder
   (for example to run an AI coding assistant), and open folders or notes from
   Explorer with **Open with Etonym**.
-- **Copy anywhere** — copying keeps formatting when you paste into a word
-  processor or mail. Print a note with `Ctrl+P`.
+- **Copy and paste anywhere** — copying keeps formatting when you paste into
+  a word processor or mail. Formatted text pasted from a web page or a
+  document becomes Markdown; `Ctrl+Shift+V` pastes plain text. Print a note
+  with `Ctrl+P`.
 - **Search** across all notes and step through the results with Previous and
   Next (`F4`); the search words are marked in the open note. Quick open by
   file name.
