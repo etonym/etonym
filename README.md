@@ -14,6 +14,9 @@ This repository holds release downloads only. Get the latest installer from
   as you type; the line you are editing shows its Markdown source. A
   formatting toolbar is always in view. Body text uses the bundled Pretendard
   font, so Korean and Latin text look the same on every computer.
+- **An outline beside the note** — the note's headings stay in a panel next
+  to the editor, with the section you are reading marked; click one to jump
+  there. Show or hide it with `Ctrl+Shift+\`.
 - **Properties as a table** — the frontmatter at the top of a note shows as
   a table you can edit, fold, and add to with `Ctrl+;`. Only the lines you
   change are rewritten.
@@ -33,8 +36,9 @@ This repository holds release downloads only. Get the latest installer from
   switch and merge branches, and resolve conflicts without a terminal. Each
   note has its own history. It uses the git installed on your computer.
 - **A terminal and Explorer at hand** — open the OS terminal in your folder
-  (for example to run an AI coding assistant), and open folders or notes from
-  Explorer with **Open with Etonym**.
+  (for example to run an AI coding assistant), open the folder in File
+  Explorer from the side panel, and open folders or notes from Explorer with
+  **Open with Etonym**.
 - **Copy and paste anywhere** — copying keeps formatting when you paste into
   a word processor or mail. Formatted text pasted from a web page or a
   document becomes Markdown; `Ctrl+Shift+V` pastes plain text. Print a note
