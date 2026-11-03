@@ -15,8 +15,8 @@ This repository holds release downloads only. Get the latest installer from
   formatting toolbar is always in view. Body text uses the bundled Pretendard
   font, so Korean and Latin text look the same on every computer.
 - **An outline beside the note** — the note's headings stay in a panel next
-  to the editor, with the section you are reading marked; click one to jump
-  there. Show or hide it with `Ctrl+Shift+\`.
+  to the editor, with the section you are in marked; click one to bring that
+  heading to the middle of the screen. Show or hide it with `Ctrl+Shift+\`.
 - **Properties as a table** — the frontmatter at the top of a note shows as
   a table you can edit, fold, and add to with `Ctrl+;`. Only the lines you
   change are rewritten.
