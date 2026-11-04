@@ -16,13 +16,15 @@ This repository holds release downloads only. Get the latest installer from
   font, so Korean and Latin text look the same on every computer.
 - **An outline beside the note** — the note's headings stay in a panel next
   to the editor, with the section you are in marked; click one to bring that
-  heading to the middle of the screen. Show or hide it with `Ctrl+Shift+\`.
+  heading a quarter down the screen. Show or hide it with `Ctrl+Shift+\`.
 - **Properties as a table** — the frontmatter at the top of a note shows as
   a table you can edit, fold, and add to with `Ctrl+;`. Only the lines you
   change are rewritten.
 - **Tables you can edit in place** — type in cells, and copy or paste cells
   to and from a spreadsheet with their bold, italic and strikethrough.
-  Pasting text and tables copied together keeps both, in order.
+  Pasting text and tables copied together keeps both, in order. `Tab`
+  chooses the next cell's text, `Enter` breaks the line in a cell, and
+  `Alt+↑` or `Alt+↓` adds a row.
 - **Your files stay as they are** — opening and saving never rewrites line
   endings, BOM or spacing, so git shows no changes you did not make. Etonym
   keeps its own data outside your folder. A folder you already keep with
