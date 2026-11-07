@@ -15,8 +15,8 @@ Your notes and attachments stay in the folders you open. The Software does not a
 The Software keeps its own data on your device only:
 
 - (a) for each folder you open, a search cache, which holds a copy of the text of its notes, and the last open note with its cursor position, in the application data folder of your operating system. When a folder leaves the list of folders, this data is deleted;
-- (b) the list of folders you opened, your settings and the window size and position, in the same folder; and
-- (c) an error log in the application log folder of your operating system. The log holds error codes, file and folder paths and program messages, including the error output of Git and of any Git hooks you set up. The Software does not write the text of your notes to it, but a hook that prints note text puts that text in the log. The log is never sent anywhere. You can open its folder from Settings > About > Open log folder, and read it before you share it with anyone.
+- (b) the list of folders you opened, your settings, the window size and position, and copies of this policy, the license agreement and the open-source notices once you open them from Settings, in the same folder; and
+- (c) an error log in the application log folder of your operating system. The log holds error codes, file and folder paths and program messages, including the error output of Git and of any Git hooks you set up. The Software does not write the text of your notes to it, but a hook that prints note text puts that text in the log. The log is never sent anywhere. You can open its folder from Settings > About > Log folder, and read it before you share it with anyone.
 
 ## 3. When the Software Uses the Network
 
