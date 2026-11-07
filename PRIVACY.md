@@ -1,6 +1,6 @@
 # Etonym Privacy Policy
 
-Last updated: November 1, 2026
+Last updated: November 7, 2026
 
 Etonym is a note-taking application that runs on your device. This policy describes what the application (the "Software") does with information. In short: it collects nothing, and your notes never leave your device unless you send them somewhere yourself.
 
