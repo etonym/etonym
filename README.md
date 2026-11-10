@@ -36,9 +36,10 @@ This repository holds release downloads only. Get the latest installer from
 - **Mermaid diagrams** drawn inside the app, offline.
 - **Git in one tab** — review changes, commit and push, fetch and pull,
   switch and merge branches, and resolve conflicts without a terminal. Each
-  note has its own history. Set the name and email your commits use for one
-  folder, or keep your global git settings. It uses the git installed on
-  your computer.
+  note has its own history. Diffs mark the changed words, fold unchanged
+  lines and show old and new line numbers. Set the name and email your
+  commits use for one folder, or keep your global git settings. It uses the
+  git installed on your computer.
 - **A terminal and Explorer at hand** — open the OS terminal in your folder
   (for example to run an AI coding assistant), open the folder in File
   Explorer from the side panel, and open folders or notes from Explorer with
