@@ -6,7 +6,9 @@ Etonym is a note app for a plain folder of Markdown files and git. There is no
 server and no account: your notes stay as `.md` files in the folder you pick.
 
 This repository holds release downloads only. Get the latest installer from
-[Releases](https://github.com/etonym/etonym/releases/latest).
+[Releases](https://github.com/etonym/etonym/releases/latest). The website,
+[etonym.com](https://etonym.com), has the download page, the guide and the
+release notes.
 
 ## What it does
 
@@ -70,8 +72,9 @@ later; notes work without it. After installing, right-click a folder or a
 `.md` file in Explorer and choose **Open with Etonym** (on Windows 11, under
 **Show more options**). Your default app for `.md` files is not changed.
 
-Etonym checks for updates when it starts and about once a day, and installs
-one only after you agree. You can turn this off in Settings.
+Etonym checks for updates when it starts and about once a day, at etonym.com
+and then GitHub. It shows what the new version changes and installs it only
+after you agree. You can turn this off in Settings.
 
 macOS support is planned.
 
@@ -88,3 +91,6 @@ and Settings > About opens. The source code is not public.
 ## Feedback
 
 Report problems or ideas in [Issues](https://github.com/etonym/etonym/issues).
+In the app, **Report a problem** in Settings > About opens the form with your
+Etonym and Windows versions filled in. Nothing is attached or sent until you
+submit it.

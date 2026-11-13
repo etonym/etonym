@@ -1,6 +1,6 @@
 # Etonym Privacy Policy
 
-Last updated: November 7, 2026
+Last updated: November 14, 2026
 
 Etonym is a note-taking application that runs on your device. This policy describes what the application (the "Software") does with information. In short: it collects nothing, and your notes never leave your device unless you send them somewhere yourself.
 
@@ -22,9 +22,9 @@ The Software keeps its own data on your device only:
 
 The Software does not need the network to open, edit or display notes, including diagrams. It connects to the network only in these cases:
 
-- (a) Update check. Unless you turn off "Check for updates" in Settings, the Software downloads a small public file describing the latest version when it starts and about once a day. The request names no note, file, account or device identifier. Like any web request, it reveals your IP address and the time of the request to the server that hosts the updates (currently GitHub, see https://docs.github.com/site-policy for its privacy statement). If you install an update, the installer is downloaded from the same server.
+- (a) Update check. Unless you turn off "Check for updates" in Settings, the Software downloads a small public file describing the latest version when it starts and about once a day. The request names no note, file, account or device identifier. Like any web request, it reveals your IP address and the time of the request to the server that answers it: first etonym.com, which is served by Cloudflare (see https://www.cloudflare.com/privacypolicy/), and GitHub if etonym.com does not answer (see https://docs.github.com/site-policy). If you install an update, the installer is downloaded from GitHub.
 - (b) Git. When you run Git commands that contact a remote repository, Git exchanges your notes with that repository as you instructed. Cloning downloads from the address you enter. When you open a folder or its Git tab, the Software also asks Git to fetch from the remote that the current branch tracks, which only downloads. The Software does not choose or add any remote; Publish adds the address you enter. Signing in to a remote is handled by Git and its credential manager, under their own settings.
-- (c) Links. When you open a web or email link in a note, it opens in your default browser or mail program, which follows its own policy. When Git is missing or too old and you choose Install Git, the Software opens the Git download page (https://git-scm.com/downloads) in your browser.
+- (c) Links. When you open a web or email link in a note, it opens in your default browser or mail program, which follows its own policy. When Git is missing or too old and you choose Install Git, the Software opens the Git download page (https://git-scm.com/downloads) in your browser. What's new in the update dialog opens the release notes on https://etonym.com/changelog. Report a problem in Settings > About opens the issue form on GitHub (https://github.com/etonym/etonym); its address carries the Software's version and edition and your operating system version so that the form is filled in. Nothing is sent unless you submit the form yourself.
 
 Pictures and other content that a note or an HTML file links to on the internet are not loaded.
 
