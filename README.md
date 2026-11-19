@@ -5,8 +5,9 @@
 Etonym is a note app for a plain folder of Markdown files and git. There is no
 server and no account: your notes stay as `.md` files in the folder you pick.
 
-This repository holds release downloads only. Get the latest installer from
-[Releases](https://github.com/etonym/etonym/releases/latest). The website,
+This repository holds release downloads only. Get Etonym from the
+[Microsoft Store](https://apps.microsoft.com/detail/9NMDSMT0D085) or the
+latest installer from [Releases](https://github.com/etonym/etonym/releases/latest). The website,
 [etonym.com](https://etonym.com), has the download page, the guide and the
 release notes.
 
@@ -58,7 +59,16 @@ release notes.
 
 ## Install
 
-Windows 10 or 11 (x64).
+Windows 10 or 11 (x64). The same app comes two ways; install one of them.
+
+### Microsoft Store
+
+Get Etonym from the [Microsoft Store](https://apps.microsoft.com/detail/9NMDSMT0D085)
+(Windows 10 version 2004 or later). Microsoft signs it, so Windows shows no warning, and the Store keeps it up to
+date. **Open with Etonym** is in the first right-click menu of Explorer on
+Windows 11.
+
+### Installer from GitHub
 
 1. Download `Etonym_<version>_x64-setup.exe` from the
    [latest release](https://github.com/etonym/etonym/releases/latest).
@@ -67,14 +77,22 @@ Windows 10 or 11 (x64).
    **More info** and then **Run anyway**. The installer is not code-signed yet.
    Each release lists the installer's SHA-256 so you can check the download.
 
-Git features need [Git for Windows](https://git-scm.com/download/win) 2.27 or
-later; notes work without it. After installing, right-click a folder or a
-`.md` file in Explorer and choose **Open with Etonym** (on Windows 11, under
-**Show more options**). Your default app for `.md` files is not changed.
+This version checks for updates when it starts and about once a day, at
+etonym.com and then GitHub. It shows what the new version changes and installs
+it only after you agree. You can turn this off in Settings. On Windows 11,
+**Open with Etonym** is under **Show more options** in Explorer's right-click
+menu.
 
-Etonym checks for updates when it starts and about once a day, at etonym.com
-and then GitHub. It shows what the new version changes and installs it only
-after you agree. You can turn this off in Settings.
+### After installing
+
+Git features need [Git for Windows](https://git-scm.com/download/win) 2.27 or
+later; notes work without it. Right-click a folder or a `.md` file in Explorer
+and choose **Open with Etonym**. Your default app for `.md` files is not
+changed.
+
+If you install both versions, each keeps its own list of folders and settings,
+only one runs at a time, and **Open with Etonym** shows up twice in Explorer.
+Your notes are the same either way.
 
 macOS support is planned.
 
