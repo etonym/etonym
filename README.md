@@ -52,8 +52,9 @@ release notes.
   document becomes Markdown; `Ctrl+Shift+V` pastes plain text. Print a note
   with `Ctrl+P`.
 - **Search** across all notes and step through the results with Previous and
-  Next (`F4`); the search words are marked in the open note. Quick open by
-  file name.
+  Next (`F4`); the search words are marked in the open note. **Find in note**
+  (`Ctrl+F`) shows which match you are on and how many there are. Quick open
+  by file name.
 - **Works offline** — the network is used only to check for updates and to
   reach the git remotes you set up.
 
